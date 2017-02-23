@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("../images/swirl_pattern.png");
+}
+
+.logo {
+	width: 500px;
+	height:200px;
+	background-color: #f2daff;
+	border: 5px dashed #e1ff94;
+	margin: 0 auto 0 auto;
+	margin-bottom: 10px;
+}
+
+#name {
+	font-family: 'Chewy', cursive;
+	color: #663399;
+	text-align: center;
+	font-size: 40px;
+	padding: 75px 0px;
+}
+
+.instructions-box {
+	width: 600px;
+	height:475px;
+	background-color: #eefeff;
+	padding: 30px 10px;
+	line-height: 35px;
+	margin: 0 auto 0 auto;
+	margin-bottom: 10px;
+
+
+}
+
+#instructions {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+}
+
+.wrapper {
+	width:50%;
+	margin: 0 auto 0 auto;
+}
+
+.target-number {
+	width: 300px;
+	height: 150px;
+	background-color: #e1ff94;
+	float: left;
+	display: inline;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.score-board {
+	width: 100px;
+	height: 150px;
+	background-color: #f2daff; 
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+.cupcake-box {
+	width: 500px;
+	height: 100px;
+	background-color: white;
+	clear: both;
+	margin: 0 auto 0 auto;
+	margin-bottom: 10px;
+}
+
+.cupcake-button {
+	float: left;
+	display: inline;
+	margin: 5px 5px;
+}
+
+.total-score-is {
+	width: 300px;
+	height:30px;
+	background-color: #ffdbdb;
+	margin: 0 auto 0 auto;
+	margin-bottom: 5px;
+}
+
+.sum-numbers-box {
+	width: 300px;
+	height:150px;
+	background-color: #ffdbdb;
+	margin: 0 auto 0 auto;
+}
