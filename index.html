@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">™
 <head>
-	<meta charset="UTF-8">
-	<title>Cupcake Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  	<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <meta charset="UTF-8">
+    <title>Cupcake Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+     <script src="assets/javascript/game.js"></script>
 
 </head>
 <body>
 <div class = "container">
-	<div class = "logo">
-		<p id = "name"> Cupcake Collector <p>
-	</div>
-	<div class = "instructions-box">
-		<p id = "instructions" > *You will be given a random number at the start of the game. <br><br>
-		*There are four cupcakes below. By clikcing on a cupcake you will add
-		a specific amount of points to your total score. <br><br>
-		*You win the game by matching your total score to the random number, you 
-		lose the game if your total score goes above the random number. <br><br>
-		*The value of each cupcake is hidden from you until you click on it. <br><br>
-		*Each time when the game starts, the game will change the values 
-		of each cupcake.
-		</p>
-	</div>
-	<div class = "wrapper">
-	<div class = "target-number">
-	</div>
-	<div class = "score-board">
-		<p id = "wins"> Wins: 0 </p>
-		<p id = "losses"> Losses: 0 </p>
-	</div>
-	</div>
-	<div class = "cupcake-box">
-		<div class= "cupcake-button" id = "cupcake-1">
-		<img src ="assets/images/cupcake-1.jpg">
-		</div>
-		<div class= "cupcake-button" id = "cupcake-2">
-		<img src ="assets/images/cupcake-2.jpg">
-		</div>
-		</div>
-		<div class= "cupcake-button" id = "cupcake-3">
-		<img src ="assets/images/cupcake-3.jpg">
-		</div>
-		<div class= "cupcake-button" id = "cupcake-4">		
-		<img src ="assets/images/cupcake-4.jpg">
-		</div>
-		</div>
-	</div>
-	<div class = "total-score-is">
-		<p> Your total score is: </p>
-	</div>
-	<div class = "sum-numbers-box">
-	</div>
+    <div class = "logo">
+        <p id = "name"> Cupcake Collector <p>
+    </div>
+    <div class = "instructions-box">
+        <p id = "instructions" > *You will be given a random number at the start of the game. <br><br>
+        *There are four cupcakes below. By clikcing on a cupcake you will add
+        a specific amount of points to your total score. <br><br>
+        *You win the game by matching your total score to the random number, you
+        lose the game if your total score goes above the random number. <br><br>
+        *The value of each cupcake is hidden from you until you click on it. <br><br>
+        *Each time when the game starts, the game will change the values
+        of each cupcake.
+        </p>
+    </div>
+    <div class = "wrapper">
+    <div class = "target-number">
+        <div id ="comp-number">
+        </div>
+    </div>
+    <div class = "score-board">
+        <p id = "wins"> Wins: 0 </p>
+        <p id = "losses"> Losses: 0 </p>
+    </div>
+    </div>
+    <div class = "cupcake-box">
+        <div class= "cupcake-button" id = "cupcake-1">
+        <img src ="assets/images/cupcake-1.jpg">
+        </div>
+        <div class= "cupcake-button" id = "cupcake-2">
+        <img src ="assets/images/cupcake-2.jpg">
+        </div>
+        <div class= "cupcake-button" id = "cupcake-3">
+        <img src ="assets/images/cupcake-3.jpg">
+        </div>
+        <div class= "cupcake-button" id = "cupcake-4">        
+        <img src ="assets/images/cupcake-4.jpg">
+        </div>
+        </div>
+    </div>
+    <div class = "total-score-is">
+        <p> Your total score is: </p>
+    </div>
+    <div id = "sum-numbers-box">
+    </div>
 </div>
 </body>
 </html>
