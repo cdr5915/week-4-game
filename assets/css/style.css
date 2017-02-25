@@ -32,7 +32,7 @@ body {
     line-height: 35px;
     margin: 0 auto 0 auto;
     margin-bottom: 10px;
-
+    border: 10px dotted #ffdbdb;
 
 }
 
@@ -54,6 +54,15 @@ body {
     display: inline;
     margin-left: 100px;
     margin-bottom: 10px;
+    padding-top: 40px;
+    border: 1px solid #663399;
+}
+
+#comp-number {
+    font-family: 'Chewy', cursive;
+    color: #663399;
+    font-size: 70px;
+    text-align: center;
 }
 
 .score-board {
@@ -63,6 +72,22 @@ body {
     float: left;
     display: inline;
     margin-bottom: 10px;
+    padding-top: 15px;
+    border: 1px solid #663399;
+    padding-left: 2px;
+}
+
+#wins {
+    font-family: 'Chewy', cursive;
+    color: #663399;
+    font-size: 25px
+}
+
+
+#losses {
+    font-family: 'Chewy', cursive;
+    color: #663399;
+    font-size: 25px
 }
 
 .cupcake-box {
@@ -83,10 +108,19 @@ body {
 
 .total-score-is {
     width: 300px;
-    height:30px;
+    height:40px;
     background-color: #ffdbdb ;
     margin: 0 auto 0 auto;
     margin-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    border: 1px solid #663399;
+}
+
+#banner{
+    font-family: 'Chewy', cursive;
+    color: #663399;
+    font-size: 25px
 }
 
 #sum-numbers-box {
@@ -94,4 +128,14 @@ body {
     height:150px;
     background-color: #ffdbdb ;
     margin: 0 auto 0 auto;
+    border: 4px dashed #663399;
+    padding-top: 20px;
+}
+
+#sum {
+    font-family: 'Chewy', cursive;
+    color: #663399;
+    font-size: 70px;
+    text-align: center;
+
 }

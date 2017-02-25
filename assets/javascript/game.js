@@ -4,20 +4,27 @@ var losses = 0;
 var totalScore = 0;
 var cupcakeNums = [];
 var counter = 0;
+var computerNum = 0;
 
 var resetGame = function () {
     counter = 0;
     $("#sum").html(counter);
     computerNum = Math.floor(Math.random() * ((120-19) + 1) + 19);
     $("#comp-number").html(computerNum);
-    console.log(computerNum)
-    
+    console.log(computerNum);
+   for (var i = 0; i<4; i++) {
+    cupcakeNums[i] = Math.floor(Math.random() * ((12-1) + 1) + 1);
+    console.log(i + " random number: " + cupcakeNums[i]);
+
+    //assigning random num to each cupcake by ID
+    $("#cupcake-" + i ).attr("data-cupcakevalue", cupcakeNums[i]);
+    }
 }
 
 $(document).ready(function() {
 
     //setting computer's number
-    var computerNum = Math.floor(Math.random() * ((120-19) + 1) + 19);
+    computerNum = Math.floor(Math.random() * ((120-19) + 1) + 19);
     console.log("Computer number :" + computerNum);
     $("#comp-number").html(computerNum);
 
